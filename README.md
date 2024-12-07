@@ -1,8 +1,8 @@
-Color Quantizer using PyTorch
+## Color Quantizer using PyTorch
 Project Overview
 This project implements a simple Color Quantizer using PyTorch. Color Quantization is the process of reducing the number of colors in an image, which can be useful for various applications such as image compression, artistic effects, or preparing images for devices with limited color display capabilities. This implementation utilizes a PyTorch neural network model to achieve color quantization through clustering, specifically employing the Mean Squared Error (MSE) as the loss function and Adam optimizer for training.
 
-Key Features:
+# Key Features:
 
 Dynamic Cluster Specification: Easily adjust the number of color clusters (quantization levels) to suit your application.
 PyTorch Powered: Leveraging PyTorch for efficient model training and inference.
